@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../newStyle/MyStyle.css">
+    <title>Add Experience</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Home.html" target="_blank"> Personal Information</a>
+        <a href="ViewCourses.html" target="_blank"> Courses Information</a>
+        <a href="ViewExperience.html" target="_blank"> Experience Information</a>
+        <a href="AddCourse.html" target="_blank"> Add Course</a>
+        <a href="Add Experience.html" target="_blank" class="itemActive"> Add Experience</a>
+    </nav>
+    <table>
+        <tr >
+            <td  width="75%">
+    <form>
+            <div>
+                <label>Experience Category :</label>
+                <select name="Experience">
+                    <optgroup label="Experiences">
+                        <option select></option>
+                        <option type="text">job </option>
+                        <option type="text">Freelancer </option>
+                        <option type="text">Self-Learning </option>
+                    </optgroup>
+                </select>
+
+            </div><br>
+            <div>
+                <label>Experience Title :</label>
+                <input type="text" required id="ExperienceTitle">
+            </div><br>
+            <div>
+                <label>Start Month :</label>
+                <input type="month" required id="Date1">
+            </div><br>
+            <div>
+                <label>End Month :</label>
+                <input type="month" required id="Date2">
+            </div><br>
+            <div>
+                <label>Institution : </label>
+                <input type="text" required id="Institution1">
+            </div><br>
+            <div>
+
+                <div>
+                    <label>Description : </label>
+                    <textarea name="area" rows="5" cols="30"></textarea>
+                </div><br>
+                <input type="submit" value="save" class="submit">
+                <input type="reset" value="reset" class="reset">
+            </div>
+        </td>
+        <td>
+        <p>
+            <img src="../Image/experience.jpg" alt="this is picture" width="300" height="500"></td></tr>
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../newStyle/MyStyle.css">
+    <title>Add Course</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Home.html" target="_blank"> Personal Information</a>
+        <a href="ViewCourses.html" target="_blank"> Courses Information</a>
+        <a href="ViewExperience.html" target="_blank"> Experience Information</a>
+        <a href="AddCourse.html" target="_blank" class="itemActive"> Add Course</a>
+        <a href="Add Experience.html" target="_blank"> Add Experience</a>
+    </nav>
+    <table>
+        <tr>
+            <td width="65%">
+            <form method="GET">
+                <div>
+                    <label>Course Name :</label>
+                    <input type="text" required id="text">
+                </div><br>
+
+                <div> <label>Number of houres :</label>
+                    <input type="number" required id="number">
+                </div><br>
+
+                <div>
+                    <label>Start Date :</label>
+                    <input type="date" required id="sdate">
+                </div><br>
+
+                <div>
+                    <label>End Date :</label>
+                    <input type="date" required id="edate">
+                </div><br>
+
+                <div>
+                    <label>Institution : </label>
+                    <input type="text" required id="Institution">
+                </div><br>
+
+                <div>
+                    <label>Attachment :</label>
+                    <input type="radio" name="Attachment" value="File" required id="Attachment">File
+                    <input type="radio" name="Attachment" value="URL" required id="URL">URL
+                </div><br>
+
+                <div>
+                    <label> URL : </label>
+                    <input type="url" required id="url">
+                </div><br>
+
+                <div>
+                    <label>File : </label>
+                    <input type="file" required id="file">
+                </div><br>
+
+                <div>
+                    <label>Notes : </label>
+                    <textarea name="area" rows="5" cols="20"></textarea><br>
+                    <input type="submit" value="save" class="submit">
+                    <input type="reset" value="reset" class="reset">
+                </div>
+            </form>
+        </td>
+        
+        
+            <td align="center">
+            <p >
+                <img src="../Image/course.jpg" alt="this is pic" width="400" height="600"></td>
+            </tr>
+        </p>
+    </table>
+</body>
+
+</html>
